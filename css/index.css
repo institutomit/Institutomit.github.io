@@ -1,0 +1,277 @@
+
+@import url(styles.css);
+
+#portada {
+    background-image: url("../image/doc--....jpg");
+    background-size: cover;
+}
+
+.portada {
+    height: calc(60vh - 50px);
+}
+
+.textos_portada {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+
+    & h1 {
+        color: var(--colorazul);
+    }
+}
+
+.certificados_texto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    color: var(--colorrosa);
+}
+
+.certificado_tex {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    color: var(--coloraazul);
+}
+
+.carrera_texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    color: var(--colorrosa);
+}
+
+
+#noticia {
+    background-color: #efefef;
+}
+
+.foto_noticia {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.textos_noticia {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+
+    & h1 {
+        color: var(--colorazul);
+    }
+}
+
+
+#portada3 {
+    background-color: #efefef;
+}
+
+.portada3 {
+    height: calc(65vh - 51px);
+}
+
+.foto_portada3 {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+
+    & img {
+        width: auto;
+        height: 90%;
+    }
+}
+
+.textos_portada3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+
+    & h1 {
+        color: var(--colorazul);
+    }
+}
+
+
+#portada2 {
+    background-image: url("../image/IMAG-DOC---.jpg");
+    background-size: cover;
+}
+
+.portada2 {
+    height: calc(70vh - 80px);
+}
+
+.noticia_texto {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 0px;
+    color: var(--coloraazul);
+}
+
+.historia_foto {
+    display: flex;
+}
+
+.vision_texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    color: var(--colorrosa);
+}
+
+.vision_tex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 1023px) {
+
+    /* modificar tamaño de imagen de la portada */
+    .foto_portada {
+        width: auto;
+        height: 50%;
+    }
+
+    .historia_foto {
+        width: auto;
+        height: 50%;
+    }
+
+    /* modificar alineación de textos */
+    .textos_portada {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+
+        & h1 {
+            color: var(--colorazul);
+            text-align: center;
+        }
+
+        & p {
+            text-align: center;
+        }
+    }
+
+    /* modifica el tamaño de la imagen de servicios */
+    .servicio_foto {
+        width: 75%;
+        height: auto;
+    }
+
+    /* modifica el tamaño de la imagen de testimonios y alineado el contneido al centro */
+    .testimonio {
+        align-items: center;
+        gap: 25px;
+
+        & h5 {
+            text-transform: none;
+        }
+
+        & p {
+            text-align: center;
+        }
+    }
+
+
+    /* modifica el tamaño de la imagen de testimonios */
+    .testimonio_foto {
+        width: 75%;
+        height: auto;
+    }
+
+    /* cambiar direccion del displey alinear el contenido al centro */
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .banner_textos h3,
+    p {
+        text-align: center;
+    }
+}
+
+
+/* Modificaciones a las propiedades que solo se ven afectados cuando ingresan desde el celular */
+
+
+@media (max-width: 767px) {
+
+    /* modificar tamaño de imagen de la portada */
+    .foto_portada {
+        width: auto;
+        height: 50%;
+    }
+
+    /* modificar alineación de textos */
+    .textos_portada {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+
+        & h1 {
+            color: var(--colorazul);
+            text-align: center;
+        }
+
+        & p {
+            text-align: center;
+        }
+    }
+
+    /* modifica el tamaño de la imagen de servicios */
+    .servicio_foto {
+        width: 75%;
+        height: auto;
+    }
+
+    /* modifica el tamaño de la imagen de testimonios y alineado el contneido al centro */
+    .testimonio {
+        align-items: center;
+        gap: 25px;
+
+        & h5 {
+            text-transform: none;
+        }
+
+        & p {
+            text-align: center;
+        }
+    }
+
+
+    /* modifica el tamaño de la imagen de testimonios */
+    .testimonio_foto {
+        width: 75%;
+        height: auto;
+    }
+
+    /* cambiar direccion del displey alinear el contenido al centro */
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .banner_textos h3,
+    p {
+        text-align: center;
+    }
+}
