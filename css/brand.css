@@ -122,9 +122,9 @@ button {
 .grid_4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 30px;
     align-items: stretch;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    justify-items: center;
 }
 
 .certificados {
@@ -275,4 +275,6 @@ button {
         align-items: stretch;
         justify-content: space-evenly
     }
+
+    
 }

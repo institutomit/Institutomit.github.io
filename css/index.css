@@ -29,19 +29,25 @@
     color: var(--colorrosa);
 }
 
-.certificado_tex {
-    display: flex;
-    flex-direction: column;
-    align-items: first baseline;
-    color: var(--coloraazul);
-}
-
 .carrera_texto {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 25px;
     color: var(--colorrosa);
+}
+
+.carreras_foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certificado_tex {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    color: var(--coloraazul);
 }
 
 
@@ -66,10 +72,6 @@
 }
 
 
-#portada3 {
-    background-color: #efefef;
-}
-
 .portada3 {
     height: calc(65vh - 51px);
 }
@@ -77,8 +79,8 @@
 .foto_portada3 {
     display: flex;
     justify-content: center;
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
 
     & img {
         width: auto;
@@ -89,7 +91,7 @@
 .textos_portada3 {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 5px;
     justify-content: center;
 
     & h1 {
@@ -131,6 +133,31 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#portada4 {
+    background-image: url("../image/Rectangle\ 5.png");
+    background-size: cover;
+}
+
+.portada4 {
+    height: calc(70vh - 80px);
+}
+.formulario {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+}
+
+.for_boto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_servicio {
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 1023px) {
@@ -273,5 +300,17 @@
     .banner_textos h3,
     p {
         text-align: center;
+    }
+
+    .historia_foto {
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        height: 300px;
+    
+        & img {
+            width: auto;
+            height: 90%;
+        }
     }
 }

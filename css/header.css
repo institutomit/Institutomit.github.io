@@ -176,7 +176,7 @@ header {
     .menu {
         visibility: hidden;
         position: fixed;
-        background-color: var(--colorazul);
+        background-color: var(--coloraazul);
         top: 0;
         bottom: 0;
         left: 0;
